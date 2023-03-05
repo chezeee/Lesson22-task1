@@ -27,12 +27,12 @@
       voluptatem.
     </p>
 
-    <form id="login-form" novalidate>
+    <form id="login-form" action="#" novalidate>
       <label for="login-email">Email</label>
-      <input id="login-email" type="email" placeholder="Enter your email">
+      <input id="login-email" type="email" placeholder="Enter your email" required>
       <label for="login-password">Password</label>
-      <input id="login-password" type="password" placeholder="Enter your password">
-      <input type="submit" value="Login" id="submit-button" class="btn btn-default">
+      <input id="login-password" type="password" placeholder="Enter your password" required>
+      <input type="submit" value="Login" id="submit-button" class="btn btn-default" disabled>
     </form>
   </div>
 
@@ -40,7 +40,8 @@
     <a href="about.html" target="_blank">About us</a>
     <a href="contact.html" target="_blank">Contact us</a>
   </footer>
-  <script src="js/index.js"></script>
+
+  <script src="/src/js/index.js"></script>
 
 </body>
 
